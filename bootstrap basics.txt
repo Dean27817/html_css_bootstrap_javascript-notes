@@ -1,0 +1,83 @@
+bootstrap give access to buttons, dropdown menus navigation bars, and icons
+------------------------------------------------------------------------------------------------
+add bootstrap by adding
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible"content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+boootstrap css
+
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+bootstrap javascript
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+add your css link after the bootstrap css link
+-------------------------------------------------------------------------------------------
+bootstrap css classes
+all classes must be in a div tag to make it responsive
+
+container
+container will be a fixed width
+container-fluid will be a fluid width and will be the full width of the window
+
+text- classes change the text
+bg- classes change the background
+
+-start
+left alighned
+
+-center
+center alighned
+
+-end
+right alighned
+
+-muted
+mutes the text
+
+-primary
+blue
+-success
+green
+-info
+light blue
+-warning
+yellow
+-danger
+red
+
+------------------------------------------------------------------------------------------------
+
+bootstrap grid system
+
+12 columns per screen
+
+left is 1, right is 12
+
+you can add as many rows as you want, 1 at top
+
+banner, 12 columns
+
+left pannel, left 6 columns
+
+right pannel, right six columns
+
+aside, 4 columns
+
+site content, 8 columns
+
+.col smartphone
+
+.col-sm tablet
+
+.col-md laptop
+
+.col-lg large devices
+<div class="row">
+	<div class="col-(smallest device size you can put multiple of these size tags)-(number of rows)">content</div>
+</div>
+
+if device size is not specified, each div wil take 12 columns

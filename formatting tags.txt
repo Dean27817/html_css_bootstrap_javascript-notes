@@ -1,0 +1,189 @@
+<br> break
+
+<strong></strong> bold
+
+<em></em> italics
+
+<hr> horizontal line>
+
+<a href="https"://link address">
+link text on webpage
+
+</a>  Link
+
+attrabutes go inside the tag
+name on left value on right
+
+<img src="https://image source" width="(number of pixles)" height="(number of pixles)"> picture
+
+<ul> unorderd list
+	<li>list item</li>
+</ul>
+
+<ol> orderd list
+	<li>list item</li>
+</ol>
+
+<ul>
+	<li><ul>
+		<li>nested lists</li>
+	</ul></li>
+</ul>
+
+<table border="1">
+	<tr>
+		<th>table header</th>
+	</tr>
+	<tr>
+		<td>table data<td>
+	</tr>
+</table>
+
+<tagname style="property:value">
+propertys
+[
+color
+background-color
+font-size
+text-align (left, right, center)
+
+seperate by semicolons
+]
+
+
+-------------------------------------------------------------------------------------------
+semantic tags
+
+<header> top of page
+
+<nav> for navigation links
+
+<main> primary content of page
+
+<article> section that contains posts or information
+
+<figure> graphics
+
+<footer> bottom of page
+
+<aside> sidebar of content, usualy within an information box
+
+<section> blocks of content, typicaly more than one tag
+
+<blockQuote> indents and adds a line for quotes
+
+
+<mark> highlights any text
+
+<figCaption> defines text to accompony img
+
+--------------------------------------------------------------------------------------
+compound selectors
+
+space is decendents
+tag tag all (right) tags that are decendents of all (left) tags wil be selected
+
+tag.class.class.etc  will select a tag with all applied classes
+
+tag > tag will select tags (right) inside tag (left) only immidiate children
+
+tag + tag all right tags that immediatly follow left tags
+
+comas will select all tags togeather, applying the same css rules
+
+-------------------------------------------------------------------------------------
+pseudo-classes
+
+tag:hover {
+
+} class will apply to any tag that the mouse is hovering over
+
+tag:active selects an element being clicked on
+
+tag:visited seleects visited links
+
+tag:link selects unvisited links
+
+tag:after 
+
+tag::first-letter selects the first letter of each tag
+
+tag::first line selects the first line of an element
+
+
+tag::before will insert something before an element
+
+tag::after inserts somethng after the element
+
+tag::selection will select the portion of an element currently selected by the user
+-------------------------------------------------------------------------------------------
+visibility property
+
+visible, can be seen "default value"
+hidden, element is not visible, but can still take up space
+
+opacity, value from 0 (invisible) to 1 (visible)
+
+display, 
+	none, element is not displayed and doe not take up stace
+	inline, the element is displayd in the same line as the surrounding elements
+	block, element is displayed in its own block
+-----------------------------------------------------------------------------------------
+css filters
+img {
+	filter: filter type (filter percent);
+}
+
+filters:
+Sepia(%)
+Grayscale (%)
+brightness(%)(makes it darker)
+blur(px)
+contrast(%)
+invert(%)
+opacity(%)
+saturate(%)
+hue-rotate(deg)
+add a space between filters to add multiple
+------------------------------------------------------------------------------------
+animation filters
+
+@keyframes animation name{
+from{css property;}
+to{different css property;}
+}
+
+to select an element for the animation
+
+tag {
+animation-name:name of animation;
+animation-duration:time of animation in seconds(s);
+}
+shorthand
+tag {
+animation:animationName numberOfSeconds(s)
+}
+
+backwards forwards at end of style determains direction
+------------------------------------------------------------------------------------
+transitions
+
+img {
+width:100px;
+height:100px;
+transition: width 2s, height 2s;
+}
+
+img:hover {
+width:200px;
+height:200px;
+}
+-------------------------------------------------------------------------------
+buttons
+<a href="">
+<button>text</button>
+</a>
+-------------------------------------------------------------------------------
+cursor
+
+not-allowed = crossed out

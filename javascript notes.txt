@@ -1,0 +1,41 @@
+println();
+readLine("prompt");
+readInt();
+readFloat("");
+var variableName = value;
+(0,0) top left corner
+getWidth();
+getHeight();
+
+text graphics
+var text = new Text("hello world"); creates a new text object holding hello world
+text.setPosition(100, 100); tells the text object what position it will be set to
+add(text); adds the sext to the screen
+
+circle graphics
+var circle = new Circle(30); creates a new circle object with a radius of 30
+circle.setPosition(100, 50); this sets the position of the center of the circle
+circle.setColor(Color.blue); sets the color of the sircle variable to blue
+add(circle);
+
+var rect = new Rectangle(100, 50); width, height
+rect.setPosition(60, 50);
+rect.setColor(Color.red);
+add(rect);
+
+mouse events
+
+to respond to an event, use a callback function (a function that gets called on a specific event)
+
+mouseClickMethod(functionName); will get called whenever the mouse is clicked
+
+the functions input must include "e"
+
+method name will not include parenthasee or parameters
+
+e is an imput paramater and can be any variable, sometimes used as event
+e holds information such as the x and y cords of the mouse when clicked
+e.getX();
+e.getY();
+
+Randomizer.nextColor(): makes a random color
